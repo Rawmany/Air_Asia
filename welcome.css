@@ -1,0 +1,121 @@
+* {
+    font-family: Open Sans;
+  }
+  
+  .welcome {
+    width: 100%;
+    height: 100vh;
+    background-color: #020d13;
+    background: url("./img/background/bg.png") center center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome__container {
+    display: flex;
+    background: url(./img/background/shades.png);
+    width: 591px;
+    height: 248px;
+    justify-content: center;
+    align-items: center;
+  }  
+  
+  .central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-family: Open Sans;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  
+  
+  .button {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 190px;
+  }
+  
+  .button:hover {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 30px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 14px;
+    transition: .4s;  
+  }
+  
+  
+  @keyframes myAnimation {
+  
+    0% {
+      transform: scale(1);
+    }
+  
+    10% {
+      transform: scale(1.4);
+    }
+  
+    20% {
+      transform: scale(1);
+    }
+  
+    30% {
+      transform: scale(1.25);
+    }
+  
+    40% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    60% {
+      transform: scale(1);
+    }
+  
+    70% {
+      transform: scale(1);
+    }
+  
+    80% {
+      transform: scale(1);
+    }
+  
+    81% {
+      opacity: 1;
+    }
+  
+    82% {
+      opacity: 0;
+    }
+  
+    99% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  
+  }
